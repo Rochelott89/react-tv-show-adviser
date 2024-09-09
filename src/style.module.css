@@ -1,0 +1,29 @@
+
+/* display flex en modalidad flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+   flex-direction: column;: This property arranges the flex items in a vertical stack (one below the other).
+*/
+.main_container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 25px;
+    background-color: black;
+
+}
+/*
+    flex 1 significa que ocuparemos 1 espacio del disponible, engloba otras
+    caracteristicas, como flex-grow: 1: The item will take up one unit of the available space.
+    flex-shrink: 1: The item will shrink proportionally if there isn't enough space.
+    flex-basis: 0%: The initial size of the item is set to 0, meaning the item’s size is determined solely by flex-grow and flex-shrink
+*/
+.header{
+    flex: 1;
+}
+
+.tv_show_detail{
+    flex: 2;
+}
+
+.recommendations{
+    flex: 1;
+}
