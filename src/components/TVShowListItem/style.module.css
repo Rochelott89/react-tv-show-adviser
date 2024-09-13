@@ -1,0 +1,36 @@
+/*en background color el 0.8 es la opacidad
+border-bottom-left-radius y el right es para sea curvado
+recordar que es el cuadrado negro y que la imagen ya le 
+dimos esa propiedad curvada
+    text-overflow: ellipsis;
+    overflow: hidden;
+    es para que un texto muy grande no depase */
+.title{
+    position: absolute;
+    margin-top: -40px;
+    height: 40px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*misma taille de la imagen, y un cursor, una mano cuando pasamos
+dentro de la imagen*/
+.container{
+    cursor:pointer;
+    width:  300px;
+    position: relative;
+
+}
+
+.image{
+border-radius: 10px;
+
+}

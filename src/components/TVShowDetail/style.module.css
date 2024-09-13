@@ -1,0 +1,32 @@
+.title{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.rating{
+
+    margin-top: 3px;
+    margin-left: 5px;
+
+
+}
+
+.rating_container{
+    display: flex;
+}
+
+/*element will display a maximum of 120px worth of content vertically. 
+Any text or content that extends beyond 120px will be hidden from view, creating a kind of "clipping" effect.*/
+.overview{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    height: 120px;
+    overflow-y: hidden;
+    margin-top: 10px;
+}
+
+.overview:hover{
+    overflow-y: auto;
+}
+
